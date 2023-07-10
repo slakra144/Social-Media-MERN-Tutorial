@@ -1,8 +1,10 @@
 import React from 'react'
 
 import'./Profile.css'
+import ProfileCard from '../../components/ProfileCard/ProfileCard'
 import ProfileLeft from '../../components/ProfileLeft/ProfileLeft'
 import PostSide from '../../components/PostSide/PostSide'
+import RightSide from '../../components/RightSide/RightSide'
 
 const Profile = () => {
   return (
@@ -10,10 +12,10 @@ const Profile = () => {
       <ProfileLeft/>
 
       <div className="Profile-center">
-        {/* <ProfileCard/> */}
+        <ProfileCard/>
         <PostSide/>
       </div>
-      {/* <RightSide/> */}
+      <RightSide/>
     </div>
   )
 }
